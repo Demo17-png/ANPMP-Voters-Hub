@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cast Your Vote</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card vote-card">
+      <h1>Cast Your Vote</h1>
+      <p>Please select only one candidate for each position.</p>
+
+      <form id="voteForm">
+        <!-- President -->
+        <div class="position-block">
+          <h2>President</h2>
+          <label class="candidate-option">
+            <input type="radio" name="president" value="Adeolu Thomas" required />
+            Adeolu Thomas
+          </label>
+          <label class="candidate-option">
+            <input type="radio" name="president" value="Seun Babatunde" />
+            Seun Babatunde
+          </label>
+        </div>
+
+        <!-- Vice President -->
+        <div class="position-block">
+          <h2>Vice President</h2>
+          <label class="candidate-option">
+            <input type="radio" name="vicePresident" value="Kemi Jaja" required />
+            Kemi Jaja
+          </label>
+          <label class="candidate-option">
+            <input type="radio" name="vicePresident" value="Bola Kunmbi" />
+            Bola Kunmbi
+          </label>
+        </div>
+
+        <!-- Secretary -->
+        <div class="position-block">
+          <h2>Secretary</h2>
+          <label class="candidate-option">
+            <input type="radio" name="secretary" value="Bode Idowu" required />
+            Bode Idowu
+          </label>
+          <label class="candidate-option">
+            <input type="radio" name="secretary" value="Johnson Dada" />
+            Johnson Dada
+          </label>
+        </div>
+
+        <button type="submit">Submit Vote</button>
+      </form>
+
+      <p id="voteMessage" class="message"></p>
+    </div>
+  </div>
+
+  <script src="passwords.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

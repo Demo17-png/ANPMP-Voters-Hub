@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card admin-card">
+      <h1>Admin Dashboard</h1>
+      <p>Vote Summary</p>
+
+      <div class="results-grid">
+        <div class="result-box">
+          <h2>President</h2>
+          <p>Adeolu Thomas: <span id="presidentAdeolu">0</span></p>
+          <p>Seun Babatunde: <span id="presidentSeun">0</span></p>
+        </div>
+
+        <div class="result-box">
+          <h2>Vice President</h2>
+          <p>Kemi Jaja: <span id="vpKemi">0</span></p>
+          <p>Bola Kunmbi: <span id="vpBola">0</span></p>
+        </div>
+
+        <div class="result-box">
+          <h2>Secretary</h2>
+          <p>Bode Idowu: <span id="secBode">0</span></p>
+          <p>Johnson Dada: <span id="secJohnson">0</span></p>
+        </div>
+      </div>
+
+      <button class="secondary-btn" onclick="resetElection()">Reset All Votes</button>
+      <button class="secondary-btn" onclick="logoutAdmin()">Logout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
