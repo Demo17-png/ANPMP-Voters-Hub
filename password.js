@@ -1,8 +1,8 @@
 const voterPasswords = [
-  "VOTE-YKVBKS",
-  "VOTE-QC3HR8",
-  "VOTE-CAB6MW",
-  "VOTE-J2DHCX",
-  "VOTE-D4549L",
+  "YKVBKS",
+  "QC3HR8",
+  "CAB6MW",
+  "J2DHCX",
+  "D4549L",
   // ... paste the rest of the passwords from your CSV here
 ];
